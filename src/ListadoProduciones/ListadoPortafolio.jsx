@@ -1,5 +1,5 @@
-import "./VistaPortafolio.css"
-export function VistaPortafolio(){
+import "./ListadoPortafolio.css"
+export function ListadoPortafolio(){
     return(
         <>
         

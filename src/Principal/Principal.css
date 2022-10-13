@@ -1,0 +1,15 @@
+.imagenDerecha{
+    display: flex ;
+    position: absolute;
+    top: 3%;
+    left: 46%;
+    height: 93% ;
+    
+    
+}
+
+.sptm{
+    background-color: #000000;
+    width: 100%;
+    
+}

@@ -1,0 +1,102 @@
+.menu-lateral{
+    display: flex;
+    flex-wrap: nowrap;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 20%;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.barra_lateral{
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.logo{
+    width: 60%;
+    position: relative;
+    margin-left: 35%;
+    flex-direction: column;
+    border: rgb(233, 198, 42) 1px solid;
+}
+
+
+#name{
+    margin-top: 10px;
+    text-align-last: right;
+    color: rgb(233, 198, 42);
+    margin-right: 14px;
+}
+
+.first-name{
+    margin-top: 10px;
+    text-align-last: right;
+    color: rgb(233, 198, 42);
+    margin-right: 0;
+    font-size: 20px;
+}
+
+.name-principal{
+    font-size:18px;
+
+}
+
+
+.second-name{
+    text-align-last: right;
+    color: rgb(233, 198, 42);
+    font-size: 15px;
+}
+
+.text-series{
+    font-size: 15px;
+}
+
+.enlaces{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-decoration: none;
+    color:white;
+    text-decoration: none;
+    margin-right: 125px;
+    font-size: 25px;
+    padding: 2%;
+    text-decoration: underline rgb(233, 198, 42);
+}
+
+.enlaces:hover{
+    text-decoration: none;
+}
+
+
+
+#redes-sociales{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: 80px;
+}
+
+.red__linkedin{
+    margin-top: 50px;
+    margin-right: 45px;
+}
+.red__instagram{
+    margin-top: 50px;
+   
+}
+
+.texto-footer{
+    color: rgb(233, 198, 42);
+    margin-left: 10px;
+}

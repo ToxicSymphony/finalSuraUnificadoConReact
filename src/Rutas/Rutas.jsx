@@ -4,6 +4,7 @@ import { Principal } from "../Principal/Principal.jsx";
 import { SobreMi } from "../SobreMi/SobreMi.jsx";
 import { CasaAlicante } from "../CasaAlicante/CasaAlicante.jsx";
 import { CircuitoMuseoGrafico } from "../CircuitoMuseoGrafico/CircuitoMuseoGrafico.jsx";
+import { PielesArquitectonicas } from "../PielesArquitectonicas/PielesArquitectonicas.jsx";
 
 
 export function Rutas (){
@@ -11,7 +12,7 @@ export function Rutas (){
         <div className="App">
           <Menu></Menu>
           <Routes>
-          <Route path="/inicio" element={<Principal />} />
+          <Route path="/inicio" element={<PielesArquitectonicas />} />
             <Route path="/circuito" element={<CircuitoMuseoGrafico />} />
             <Route path="/sobremi" element={<SobreMi />} />
             <Route path="/casaalicante" element={<CasaAlicante />} />

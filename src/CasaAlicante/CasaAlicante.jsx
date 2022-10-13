@@ -1,4 +1,4 @@
-import './Estilos.css'
+import './CasaAlicante.css'
 
 export function CasaAlicante(){
     return(

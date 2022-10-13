@@ -13,6 +13,14 @@
     height: 100vh;
 }
 
+.item{
+    margin-bottom: 100px;
+}
+
+#profile{
+    margin-bottom: 100px;
+}
+
 .barra_lateral{
     display: flex;
     flex-wrap: nowrap;
@@ -71,11 +79,12 @@
     margin-right: 125px;
     font-size: 25px;
     padding: 2%;
-    text-decoration: underline rgb(233, 198, 42);
+    
 }
 
 .enlaces:hover{
-    text-decoration: none;
+    color:white;
+    text-decoration: underline rgb(233, 198, 42);
 }
 
 
@@ -84,12 +93,13 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-right: 80px;
+    margin-right: 20%;
+    left: 20px;
 }
 
 .red__linkedin{
     margin-top: 50px;
-    margin-right: 45px;
+    margin-right: 125px;
 }
 .red__instagram{
     margin-top: 50px;

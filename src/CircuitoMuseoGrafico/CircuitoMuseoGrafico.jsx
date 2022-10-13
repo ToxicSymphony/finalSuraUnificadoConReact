@@ -1,4 +1,4 @@
-import './Estilos.css'
+import './CircutioMuseoGrafico.css'
 
 export function CircuitoMuseoGrafico(){
     return(

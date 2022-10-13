@@ -19,6 +19,7 @@ export function Menu() {
           alt=""
         />
 
+        
         <div id="profile">
           <div className="conteneder">
             <img
@@ -43,6 +44,10 @@ export function Menu() {
             <span className="name-principal">OSCAR CANO</span>
           </div>
         </div>
+
+        
+
+        
 
         <div className="item">
           <Link className="enlaces nav" to="/inicio">

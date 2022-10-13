@@ -1,0 +1,10 @@
+
+.fondo{
+    background-color: black;
+    
+    position: relative;
+    z-index: -1;
+}
+.col-12{
+    margin-left: 130px;
+}

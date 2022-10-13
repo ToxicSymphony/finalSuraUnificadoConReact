@@ -5,9 +5,9 @@ export function PielesArquitectonicas(){
             <main className="fondo">
                 <section>
                     <div className="container">
-                        <div className="row-1 ">
+                        <div className="row-1">
                             <div className="col-12 ">
-                                <h1 className="text-light mt-5">PIELES ARQUITECTÓNICAS</h1>
+                                <h1 className="text-light">PIELES ARQUITECTÓNICAS</h1>
                                 <p className="text-secondary">
                                 En arquitectura se habla de la piel, haciendo alusión al tratamiento de
                                 las fachadas <br />
@@ -21,7 +21,7 @@ export function PielesArquitectonicas(){
       
                     <div className="row-1">
                         <div className="col-4 d-block mx-auto">
-                            <img className="mt-5"
+                            <img 
                             src="https://firebasestorage.googleapis.com/v0/b/cursosms7-f11de.appspot.com/o/1.jpg?alt=media&token=84337609-351a-4a5d-818d-fedf526833a1"
                             alt="..."/>
                         </div>
@@ -58,7 +58,7 @@ export function PielesArquitectonicas(){
                             />
                         </div>
                     </div>
-                    <div className="row-1 ">
+                    <div className="row-1">
                         <div className="col-4 d-block mx-auto">
                             <img className="mt-5"
                             src="https://firebasestorage.googleapis.com/v0/b/proyectopractica-b5d2d.appspot.com/o/arquitectura%2F6.jpg?alt=media&token=e9de22af-a5d9-47d6-a257-d528de2f2e22"
@@ -66,27 +66,10 @@ export function PielesArquitectonicas(){
                             />
                         </div>
                     </div>
-              
-             
-              
-              
-              
-            
                 </section>
-      
-          
-
-
-
-
-
             </main>
             <footer>
-
-
             </footer>
         </>
-    )
-        
-    
+    )   
 }

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Encabezado --------------------------------------------------------------------------------------*/
+
+.encabezado{
+    background-color: rgb(235, 34, 34);
+    width: 25%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.logo{
+    height: 20%;
+    margin-top: 20px;
+    margin-left: 100px;
+    border: 2px #FFD000 solid;
+}
+.descripcion{
+    color: #FFD000;
+    margin-top: 30px;
+    margin-right: 0;
+    position: relative;
+    text-align: right;
+    margin-right: 6%;
+}
+
+.descripcion div{ 
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.contacto{
+    color: #FFFFFF;
+    margin-top: 70%;
+    margin-left: 5%;  
+    margin-bottom: 10%;      
+}
+
+.contacto a{
+    text-decoration: none;
+    display: block;
+    margin-top: 5%;
+    color: white;
+}
+
+.contacto a:hover{
+    color: #FFD000;
+}
+
+span{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.redes{
+     margin-top: 55%;
+}
+.redes img{
+    width: 40px;
+
+}
+.derechos{
+    margin-top: 10%;
+    color: #FFD000;
+}
+
+/* menu --------------------------------------------------------------------------------------*/
+
+.informacion{
+    background-color: #FFD000;
+    width: 30%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 25%;
+    color: #080808;
+    justify-content: center;    
+}
+
+.textoInfo{
+    text-align: center;
+    margin-top: 60%;
+    margin-left: 25%;
+}
+
+.formContact{
+    width: 45%;
+    height: 100vh; 
+    right: 0;
+    position: fixed;
+    top: 0;   
+    background-color:black; 
+    color: white;
+}
+
+#inputEmail4, #inputPassword4, #inputAddress, #inputAddress2{
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    
+}

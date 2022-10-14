@@ -50,7 +50,7 @@ export function Menu() {
         
 
         <div className="item">
-          <Link className="enlaces nav" to="/inicio">
+          <Link className="enlaces nav" to="/">
             INICIO
           </Link>
           <Link className="enlaces nav" to="/portafolio">
@@ -59,7 +59,7 @@ export function Menu() {
           <Link className="enlaces nav" to="/sobremi">
             SOBRE MI
           </Link>
-          <Link className="enlaces nav" to="/casaalicante">
+          <Link className="enlaces nav" to="/contacto">
             CONTACTO
           </Link>
         </div>

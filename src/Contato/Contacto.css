@@ -77,7 +77,7 @@ span{
     height: 100vh;
     position: fixed;
     top: 0;
-    left: 25%;
+    right: 50%;
     color: #080808;
     justify-content: center;    
 }

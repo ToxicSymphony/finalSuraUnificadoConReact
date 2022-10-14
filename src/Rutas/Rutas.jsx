@@ -12,6 +12,8 @@ import { ListadoAlimentos } from "../ListadoAlimentos/ListadoAlimentos.jsx";
 import { Hamburguesa } from "../Hambuguesa/Hamburguesa.jsx";
 import { ListadoProduccionesProductos } from "../ListadoProduccionesProducto/ListadoProduccionesProductos.jsx";
 import { VistaSocial } from "../ListaProduccionSocial/VistaSocial.jsx";
+import { Helados } from "../Helados/Helados.jsx";
+import { EscuelaIndigena } from "../EscuelaIndigena/EscuelaIndigena.jsx";
 
 
 
@@ -31,11 +33,14 @@ export function Rutas (){
             <Route path="/portafolio/arquitectura/casaalicante" element={<CasaAlicante />} />
             <Route path="/portafolio/arquitectura/circuitomuseografico" element={<CircuitoMuseoGrafico />} />
             <Route path="/portafolio/arquitectura/pielesarquitectura" element={<PielesArquitectonicas />} />
+            <Route path="/portafolio/arquitectura/escuelaindigena" element={<EscuelaIndigena />} />
             <Route path="/portafolio/arquitectura/puntosfijos" element={<PuntosFijos />} />
             <Route path="/portafolio/alimentos" element={<ListadoAlimentos />} />
             <Route path="/portafolio/alimentos/hamburguesa" element={<Hamburguesa />} />
+            <Route path="/portafolio/alimentos/helados" element={<Helados />} />
             <Route path="/portafolio/productos" element={<ListadoProduccionesProductos />} />
             <Route path="/portafolio/social" element={<VistaSocial />} />
+
             
 
             

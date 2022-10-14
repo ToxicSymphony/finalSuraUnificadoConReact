@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Open+Sans:ital,wght@1,500&family=Roboto:ital,wght@0,400;1,100&family=Rubik:wght@300;400;500&display=swap');
+
+.contenedor_helados{
+    top: 0;
+    right: 0;
+    width: 80%;
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.texto_helados{
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.titulo_helados{
+    font-weight: normal;
+}

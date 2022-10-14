@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.caja{
+    border-color: gray;
+}
+
+.imagen{
+    width: 100%;
+    height: 30%;
+    margin-top: 7px;
+}
+.imagen1{
+    width: 70%;
+    height: 60%;
+    margin-top: 7px;
+    margin-left: 160px;
+}
+
+.lista{
+    margin-top: 90px;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+h5{
+    color: grey;
+}
+
+.uno{
+    background-color:black;
+    height: 306vh;
+    width: 20%;
+    color: white;
+}
+
+.dos{
+    background-color: black;
+    height: 306vh;
+    width: 1%;
+    color: white;
+}
+
+.tres{
+    background-color: black;
+    height: 250vh;
+    width: 78%;
+    color: white;
+    margin-top: 20px;
+}
+
+#pantalla-dividida{
+    display: flex;
+}

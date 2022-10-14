@@ -5,11 +5,11 @@ export function SobreMi(){
         <>
         <div className="cualquiera">
             <div className="container-fluid  dark position-absolute end-0  contenedor2 z-index">
-        <div className="row row-cols-2 row-md-2  dark justify-content-center">
+        <div className="row row-cols-2 row-md-2  dark justify-content-center ">
             <div className="col-12 col-md-6">
                 <img src="https://firebasestorage.googleapis.com/v0/b/fotosanotojobs.appspot.com/o/retratos.jpg?alt=media&token=1f1d5143-1644-475a-958d-b2867cf4583a" alt="" class="img-fluid w-100 "/>
             </div>
-                <div className="col-12 col-md-6  text-light  text-center mt-5 dark position-top ">
+                <div className="col-12 col-md-6  text-light  text-center mt-5 dark align-self-center ">
                     <p className="fs-1 ">Hola, soy <span className="text-amarillo fs-1">OSCAR CANO</span> arquitecto y fotografo</p>
                     <p className="fs-2 ">
                       ... Arquitecto interesado en el desarrollo del conocimiento y

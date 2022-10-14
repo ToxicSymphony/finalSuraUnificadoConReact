@@ -15,9 +15,7 @@ body{
     margin-top: 7px;
 }
 
-li{
-    border-bottom: 3px solid #ffD000;
-}
+
 
 ul{
     list-style-type: none;
@@ -64,7 +62,8 @@ margin-top: 260px;
 }
 
 .enlacesvp:hover{
-    color: #FFD000;
+    color: #ffffff;
+    text-decoration: underline rgb(233, 198, 42) ;
 }
 
 

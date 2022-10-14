@@ -7,17 +7,17 @@ export const Contacto= () => {
       <div className="row">
         <div className="informacion">
           <div className="textoInfo container">
-            <div className="row">
-              <div className="col-sm-1">
+            <div className="row mt-5">
+              <div className="col-sm-1 ">
                 {" "}
                 <img src="https://firebasestorage.googleapis.com/v0/b/vistacontacto-febac.appspot.com/o/ubicacion.png?alt=media&token=50f66041-5702-4f29-9964-3e1836cf7383" alt="Ubicacion" />
               </div>
-              <div className="col-sm-3">
+              <div className="col-sm-3 ">
                 <span>UBICACION MDE-CO</span>
               </div>
             </div>
-            <div className="row">
-              <div className="col-sm-1">
+            <div className="row mt-5">
+              <div className="col-sm-1 ">
                 {" "}
                 <img src="https://firebasestorage.googleapis.com/v0/b/vistacontacto-febac.appspot.com/o/phone.png?alt=media&token=6bd2122a-5165-49e2-98ab-8f08eacdb5d9" alt="Telefono" />
               </div>
@@ -25,7 +25,7 @@ export const Contacto= () => {
                 <span>TELEFONO +573002003040</span>
               </div>
             </div>
-            <div className="row">
+            <div className="row mt-5">
               <div className="col-sm-1">
                 {" "}
                 <img src="https://firebasestorage.googleapis.com/v0/b/vistacontacto-febac.appspot.com/o/carta.png?alt=media&token=77ef6fb3-9824-4d03-89da-e59daaa0f149" alt="Carta" />
@@ -39,7 +39,7 @@ export const Contacto= () => {
         
       </div>
       <div className="formContact">
-        <div className="float-right p-5">
+        <div className=" float-right p-5 ">
           <form >          
             <h1 className="pt-3 pe-5">CONTÁCTAME</h1>
             <div className="form-row d-flex p-5 justify-content-around">

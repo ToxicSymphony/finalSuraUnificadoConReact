@@ -1,5 +1,5 @@
 import './Hamburguesa.css'
-export function Hambuguesa(){
+export function Hamburguesa(){
     return(
         <>
             <main className="contenedor">

@@ -1,5 +1,6 @@
-import "./ListadoPortafolio.css"
-export function ListadoPortafolio(){
+import "./ListadoPortafolioArquitectura.css"
+import { Link } from "react-router-dom"
+export function ListadoArquitectura(){
     return(
         <>
         
@@ -14,11 +15,11 @@ export function ListadoPortafolio(){
             </div>
             <div class="cuatrovp">
                     <ul>
-                        <li class="enlacecuatrovp"><a href="" class="enlacesvp">CASA ALICANTE</a></li>
-                        <li class="enlacecincovp"><a href="" class="enlacesvp">CIRCUITO MUSEOGRÁFICO</a></li>
-                        <li class="enlaceseisvp"><a href="" class="enlacesvp">ESCUELA INDÍGENAS</a></li>
-                        <li class="enlacesietevp"><a href="" class="enlacesvp">PIELES DE ARQUITECTURA</a></li>
-                        <li class="enlacesochovp"><a href="" class="enlacesvp">PUNTOS FIJOS</a></li>
+                        <li class="enlacecuatrovp"><Link to="/portafolio/arquitectura/casaalicante" class="enlacesvp">CASA ALICANTE</Link></li>
+                        <li class="enlacecincovp"><Link to="/portafolio/arquitectura/circuitomuseografico" class="enlacesvp">CIRCUITO MUSEOGRÁFICO</Link></li>
+                        <li class="enlaceseisvp"><Link to="" class="enlacesvp">ESCUELA INDÍGENAS</Link></li>
+                        <li class="enlacesietevp"><Link to="/portafolio/arquitectura/pielesarquitectura" class="enlacesvp">PIELES DE ARQUITECTURA</Link></li>
+                        <li class="enlacesochovp"><Link to="/portafolio/arquitectura/puntosfijos" class="enlacesvp">PUNTOS FIJOS</Link></li>
                     </ul>
             </div>
         </section>

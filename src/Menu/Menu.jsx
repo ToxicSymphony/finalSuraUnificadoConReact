@@ -53,7 +53,7 @@ export function Menu() {
           <Link className="enlaces nav" to="/inicio">
             INICIO
           </Link>
-          <Link className="enlaces nav" to="/circuito">
+          <Link className="enlaces nav" to="/portafolio">
             PORTAFOLIO
           </Link>
           <Link className="enlaces nav" to="/sobremi">

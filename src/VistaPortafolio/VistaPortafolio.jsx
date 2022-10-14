@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./VistaPortafolio.css"
 export function VistaPortafolio(){
     return(
@@ -12,10 +13,10 @@ export function VistaPortafolio(){
             </div>
             <div class="cuatrovp">
                     <ul>
-                        <li class="enlacecuatrovp"><a href="" class="enlacesvp">ARQUITECTURA</a></li>
-                        <li class="enlacecincovp"><a href="" class="enlacesvp">ALIMENTOS</a></li>
-                        <li class="enlaceseisvp"><a href="" class="enlacesvp">PRODUCTO</a></li>
-                        <li class="enlacesietevp"><a href="" class="enlacesvp">SOCIAL</a></li>
+                        <li class="enlacecuatrovp"><Link to="/portafolio/arquitectura" class="enlacesvp">ARQUITECTURA</Link></li>
+                        <li class="enlacecincovp"><Link to="/portafolio/alimentos" class="enlacesvp">ALIMENTOS</Link></li>
+                        <li class="enlaceseisvp"><Link to="/portafolio/productos" class="enlacesvp">PRODUCTO</Link></li>
+                        <li class="enlacesietevp"><Link to="/portafolio/social" class="enlacesvp">SOCIAL</Link></li>
                     </ul>
             </div>
         </section>
